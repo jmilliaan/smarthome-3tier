@@ -1,0 +1,18 @@
+Launching pytest with arguments C:/Users/joymi/Desktop/CIT/_Semester4/IEE2031_OOPIoT/smarthome/test.py --no-header --no-summary -q in C:\Users\joymi\Desktop\CIT\_Semester4\IEE2031_OOPIoT\smarthome
+
+============================= test session starts =============================
+collecting ... collected 6 items
+
+test.py::test_check_user_in_db_1 PASSED                                  [ 16%]Johan is registered
+
+test.py::test_check_user_in_db_2 PASSED                                  [ 33%]Wrong Password
+
+test.py::test_check_user_in_db_3 PASSED                                  [ 50%]Login Failed
+
+test.py::test_log_ PASSED                                                [ 66%]
+test.py::test_addsensor PASSED                                           [ 83%]
+test.py::test_addactuator PASSED                                         [100%]
+
+======================== 6 passed, 6 warnings in 0.10s ========================
+
+Process finished with exit code 0
